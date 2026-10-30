@@ -1,6 +1,6 @@
 # Request: supported title-screen mod activation / Workshop manager integration
 
-Status: prepared; no developer approval received. This document is not evidence of a sent message.
+Submitted request: https://github.com/dragonpan2/probably-stolen-modding/issues/1 (2026-10-30). No developer approval received. The submitted message also links to the public source repository.
 
 Hello Questing Goose Studio team,
 
