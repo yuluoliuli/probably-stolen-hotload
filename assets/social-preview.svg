@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">HotLoad social preview</title>
+  <desc id="desc">Experimental title-screen mod activation for Probably Stolen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07120f"/>
+      <stop offset=".55" stop-color="#16291e"/>
+      <stop offset="1" stop-color="#3a2916"/>
+    </linearGradient>
+    <radialGradient id="lamp">
+      <stop offset="0" stop-color="#ffd67e" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#ffd67e" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+    <style>
+      .title { font: 900 108px "Segoe UI", Arial, sans-serif; fill: #f7f0dc; letter-spacing: -5px; }
+      .cn { font: 800 36px "Microsoft YaHei", "Segoe UI", sans-serif; fill: #f0c66d; }
+      .en { font: 600 21px "Segoe UI", Arial, sans-serif; fill: #a9c7b7; }
+      .small { font: 800 17px "Microsoft YaHei", "Segoe UI", sans-serif; fill: #bbebd4; letter-spacing: 1.4px; }
+      .mono { font: 700 15px Consolas, monospace; fill: #82bda0; }
+    </style>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1050" cy="140" r="330" fill="url(#lamp)" filter="url(#blur)"/>
+  <rect x="28" y="28" width="1224" height="584" rx="30" fill="none" stroke="#dfbd70" stroke-opacity=".3"/>
+
+  <g transform="translate(70 65)">
+    <rect width="346" height="44" rx="22" fill="#0a1712" stroke="#61c99d" stroke-opacity=".48"/>
+    <circle cx="23" cy="22" r="6" fill="#f4c75f"/>
+    <text x="42" y="28" class="small">UNOFFICIAL · EXPERIMENTAL</text>
+  </g>
+  <text x="64" y="238" class="title">HOTLOAD</text>
+  <text x="70" y="300" class="cn">标题页免重启激活 MOD</text>
+  <text x="71" y="344" class="en">Native approval stays. The external bootstrap remains visible.</text>
+
+  <g transform="translate(72 416)">
+    <rect width="535" height="142" rx="20" fill="#07100d" stroke="#34584a"/>
+    <text x="25" y="39" class="mono">mode=active</text>
+    <text x="25" y="80" class="mono" fill="#f1c56a">allow=ID|version|fingerprint</text>
+    <text x="25" y="118" class="mono" fill="#648574">verify effect in game, not just the log</text>
+  </g>
+
+  <g transform="translate(685 145)">
+    <rect width="505" height="374" rx="26" fill="#07100d" fill-opacity=".78" stroke="#496555"/>
+    <rect x="1" y="1" width="503" height="48" rx="25" fill="#13231b" stroke="#496555"/>
+    <circle cx="27" cy="25" r="6" fill="#ee8a6f"/>
+    <circle cx="48" cy="25" r="6" fill="#f3ca6d"/>
+    <circle cx="69" cy="25" r="6" fill="#68d39e"/>
+    <text x="393" y="31" class="mono">TITLE MENU</text>
+    <rect x="35" y="80" width="294" height="65" rx="14" fill="#0e281f" stroke="#2d7658"/>
+    <circle cx="64" cy="112" r="10" fill="#61d596"/>
+    <text x="88" y="118" class="en" fill="#dcebe2">Reputation Pop</text>
+    <rect x="263" y="104" width="44" height="18" rx="9" fill="#5bd09a"/>
+    <circle cx="297" cy="113" r="6" fill="#07100d"/>
+    <path d="M341 112 H370" stroke="#d3b264" stroke-width="3" stroke-dasharray="8 7"/>
+    <path d="M366 104 L377 112 L366 120" fill="none" stroke="#d3b264" stroke-width="3"/>
+    <rect x="393" y="80" width="78" height="126" rx="18" fill="#1b190f" stroke="#d6ad57"/>
+    <path d="M414 119 l10 50 h37 l10-50Z" fill="#f2c66c" opacity=".22"/>
+    <circle cx="442" cy="150" r="15" fill="#ffca64"/>
+    <path d="M442 137 v26 M429 150 h26" stroke="#fff0bd" stroke-width="3"/>
+    <text x="398" y="188" class="mono" fill="#ebc775">LOAD</text>
+    <path d="M36 259 H469" stroke="#335246"/>
+    <text x="36" y="293" class="mono">native approval</text>
+    <text x="206" y="293" class="mono">main-thread queue</text>
+    <text x="402" y="293" class="mono">visible test</text>
+    <rect x="36" y="321" width="433" height="30" rx="9" fill="#142a21"/>
+    <text x="49" y="341" class="mono" fill="#8dac9d">No hot-disable · no DLL update · no in-save activation</text>
+  </g>
+</svg>

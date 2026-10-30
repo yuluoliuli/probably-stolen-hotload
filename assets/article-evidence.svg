@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">HotLoad evidence card</title>
+  <desc id="desc">A visual summary separating tested behavior, untested behavior, and safety boundaries.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3efe4"/>
+      <stop offset="1" stop-color="#e4eee7"/>
+    </linearGradient>
+    <style>
+      .title { font: 900 62px "Microsoft YaHei", "Segoe UI", sans-serif; fill: #15251d; letter-spacing: -2px; }
+      .sub { font: 600 24px "Microsoft YaHei", "Segoe UI", sans-serif; fill: #5b6a60; }
+      .head { font: 800 30px "Microsoft YaHei", "Segoe UI", sans-serif; }
+      .body { font: 600 21px "Microsoft YaHei", "Segoe UI", sans-serif; }
+      .small { font: 700 16px "Microsoft YaHei", "Segoe UI", sans-serif; letter-spacing: 1px; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <path d="M0 840 C250 760 440 940 720 824 S1120 765 1600 850 V1000 H0Z" fill="#d2e2d7" opacity=".7"/>
+  <text x="80" y="105" class="title">证据比“能用”更重要</text>
+  <text x="84" y="151" class="sub">HotLoad 实验记录 · 2026-10-30</text>
+
+  <g transform="translate(80 220)" fill="#435047">
+    <rect width="450" height="610" rx="30" fill="#fffdf8" stroke="#b9ca98" stroke-width="2"/>
+    <rect width="450" height="82" rx="30" fill="#e5f1df"/>
+    <rect y="52" width="450" height="30" fill="#e5f1df"/>
+    <circle cx="48" cy="41" r="16" fill="#4b9b6f"/>
+    <path d="M40 41 l6 6 12-14" fill="none" stroke="#fff" stroke-width="4"/>
+    <text x="77" y="50" class="head" fill="#28543d">已经测到</text>
+    <text x="36" y="129" class="small" fill="#6e7d72">TITLE-SCREEN ACTIVATION</text>
+    <text x="36" y="170" class="body">Reputation Pop 在标题页激活</text>
+    <text x="36" y="203" class="body">玩家确认飘字实际出现</text>
+    <line x1="36" y1="236" x2="414" y2="236" stroke="#dce3dc"/>
+    <text x="36" y="281" class="small" fill="#6e7d72">NEW WORKSHOP ITEM</text>
+    <text x="36" y="322" class="body">下载后出现在 MOD 列表并载入</text>
+    <text x="36" y="355" class="body">物品标签效果尚未实测</text>
+    <line x1="36" y1="388" x2="414" y2="388" stroke="#dce3dc"/>
+    <text x="36" y="433" class="small" fill="#6e7d72">RETURN TO TITLE</text>
+    <text x="36" y="474" class="body">ShutterEvents 加载成功</text>
+    <text x="36" y="507" class="body">边界：重载存档后看见事件</text>
+    <rect x="36" y="544" width="378" height="38" rx="10" fill="#eef5ea"/>
+    <text x="53" y="569" class="small" fill="#4c765d">不是运行中存档内激活</text>
+  </g>
+
+  <g transform="translate(575 220)" fill="#435047">
+    <rect width="450" height="610" rx="30" fill="#fffdf8" stroke="#d6b58d" stroke-width="2"/>
+    <rect width="450" height="82" rx="30" fill="#faebdc"/>
+    <rect y="52" width="450" height="30" fill="#faebdc"/>
+    <circle cx="48" cy="41" r="16" fill="#cb7a48"/>
+    <path d="M41 34 l14 14 M55 34 l-14 14" stroke="#fff" stroke-width="4"/>
+    <text x="77" y="50" class="head" fill="#754127">还没承诺</text>
+    <text x="36" y="129" class="small" fill="#7d746c">HOT DISABLE</text>
+    <text x="36" y="170" class="body">停用后仍需重启</text>
+    <text x="36" y="203" class="body">没有通用热卸载</text>
+    <line x1="36" y1="236" x2="414" y2="236" stroke="#e7ddd4"/>
+    <text x="36" y="281" class="small" fill="#7d746c">DLL UPDATE</text>
+    <text x="36" y="322" class="body">不支持已加载程序集原地替换</text>
+    <line x1="36" y1="355" x2="414" y2="355" stroke="#e7ddd4"/>
+    <text x="36" y="400" class="small" fill="#7d746c">EVERY MOD</text>
+    <text x="36" y="441" class="body">内容 MOD、延迟初始化</text>
+    <text x="36" y="474" class="body">反射依赖都仍是盲区</text>
+    <line x1="36" y1="507" x2="414" y2="507" stroke="#e7ddd4"/>
+    <text x="36" y="552" class="small" fill="#7d746c">LOADED ≠ FINISHED</text>
+    <text x="36" y="593" class="body">日志出现后，异步资源可能未完</text>
+  </g>
+
+  <g transform="translate(1070 220)" fill="#cee1d6">
+    <rect width="450" height="610" rx="30" fill="#17322a"/>
+    <circle cx="48" cy="48" r="17" fill="#274f40"/>
+    <text x="42" y="55" class="small" fill="#8dd7b3">!</text>
+    <text x="80" y="55" class="head" fill="#f1e6cb">安全边界</text>
+    <text x="34" y="119" class="small" fill="#73b895">POWERED BY NATIVE TRUST</text>
+    <text x="34" y="161" class="body" fill="#cee1d6">不绕过扫描或信任检查</text>
+    <text x="34" y="205" class="body" fill="#cee1d6">首次安装仍要一次重启</text>
+    <text x="34" y="249" class="body" fill="#cee1d6">保留存档与文件恢复点</text>
+    <text x="34" y="293" class="body" fill="#cee1d6">不覆盖已有注入器</text>
+    <rect x="34" y="335" width="382" height="1" fill="#3a5e4f"/>
+    <text x="34" y="386" class="small" fill="#73b895">CONTROLLED TEST</text>
+    <text x="34" y="428" class="body" fill="#cee1d6">auto=off</text>
+    <text x="34" y="472" class="body" fill="#cee1d6">绑定真实 fingerprint</text>
+    <text x="34" y="516" class="body" fill="#cee1d6">发生部分失败就退出</text>
+    <rect x="34" y="548" width="382" height="42" rx="12" fill="#22463a"/>
+    <text x="53" y="575" class="small" fill="#b8dfca">申请已发出，尚未获得官方认可</text>
+  </g>
+
+  <text x="800" y="914" text-anchor="middle" class="sub">HotLoad built for evidence, not magic.</text>
+</svg>

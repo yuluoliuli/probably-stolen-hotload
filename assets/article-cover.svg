@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">HotLoad article cover</title>
+  <desc id="desc">An experimental title-screen mod activation project for Probably Stolen, with clear boundaries.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07120f"/>
+      <stop offset=".52" stop-color="#15291e"/>
+      <stop offset="1" stop-color="#352715"/>
+    </linearGradient>
+    <radialGradient id="lamp">
+      <stop offset="0" stop-color="#ffd67e" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#f5a84d" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#f5a84d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#d7e9dd" opacity=".1"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="32"/></filter>
+    <style>
+      .pill { font: 800 19px "Microsoft YaHei", "Segoe UI", sans-serif; letter-spacing: 2px; }
+      .title { font: 900 92px "Microsoft YaHei", "Segoe UI", sans-serif; letter-spacing: -3px; }
+      .title2 { font: 900 70px "Microsoft YaHei", "Segoe UI", sans-serif; letter-spacing: -2px; }
+      .sub { font: 600 34px "Microsoft YaHei", "Segoe UI", sans-serif; }
+      .small { font: 600 19px "Microsoft YaHei", "Segoe UI", sans-serif; }
+      .mono { font: 700 18px Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <circle cx="1265" cy="270" r="420" fill="url(#lamp)" filter="url(#blur)"/>
+  <circle cx="130" cy="930" r="260" fill="#2fc991" opacity=".08" filter="url(#blur)"/>
+
+  <rect x="46" y="46" width="1508" height="908" rx="34" fill="none" stroke="#dfc177" stroke-opacity=".28" stroke-width="2"/>
+  <g transform="translate(92 88)">
+    <rect width="426" height="48" rx="24" fill="#0b1813" stroke="#62c99e" stroke-opacity=".48"/>
+    <circle cx="25" cy="24" r="7" fill="#f6c65b"/>
+    <text x="47" y="31" class="pill" fill="#bcebd5">实验性源码 · 非官方</text>
+  </g>
+
+  <text x="88" y="274" class="title" fill="#f9f2df">免重启，</text>
+  <text x="88" y="376" class="title2" fill="#f4c86d">让 MOD 在标题页亮起来</text>
+  <text x="92" y="443" class="sub" fill="#bdd4c8">Probably Stolen × HotLoad 实验记录</text>
+
+  <g transform="translate(92 527)">
+    <rect width="760" height="242" rx="26" fill="#07100d" fill-opacity=".8" stroke="#3c5e50"/>
+    <rect x="1" y="1" width="758" height="54" rx="25" fill="#13241c" stroke="#3c5e50"/>
+    <circle cx="28" cy="28" r="6" fill="#ee8a6f"/>
+    <circle cx="50" cy="28" r="6" fill="#f3ca6d"/>
+    <circle cx="72" cy="28" r="6" fill="#68d39e"/>
+    <text x="620" y="35" class="mono" fill="#759786">TITLE MENU</text>
+
+    <rect x="37" y="84" width="420" height="61" rx="14" fill="#0e281f" stroke="#2d7658"/>
+    <circle cx="67" cy="114" r="11" fill="#61d596"/>
+    <text x="92" y="121" class="small" fill="#deeee4">Reputation Pop · 审核通过</text>
+    <rect x="382" y="105" width="46" height="20" rx="10" fill="#5bd09a"/>
+    <circle cx="418" cy="115" r="7" fill="#07100d"/>
+
+    <path d="M479 115 H517" stroke="#d3b264" stroke-width="4" stroke-dasharray="10 8"/>
+    <path d="M510 103 L524 115 L510 127" fill="none" stroke="#d3b264" stroke-width="4"/>
+
+    <rect x="552" y="83" width="170" height="148" rx="18" fill="#1b190f" stroke="#d6ad57" stroke-width="2"/>
+    <path d="M586 121 l15 72 h63 l15-72Z" fill="#f2c66c" opacity=".2" stroke="#f2c66c"/>
+    <path d="M599 119 h63 l-8-20 h-47Z" fill="#f2c66c" opacity=".62"/>
+    <circle cx="630" cy="158" r="18" fill="#ffca64"/>
+    <path d="M630 143 v30 M615 158 h30" stroke="#fff1c0" stroke-width="4"/>
+    <text x="578" y="208" class="small" fill="#f3d38b">继续进入观察</text>
+
+    <text x="37" y="205" class="mono" fill="#8bad9b">approval = native  ·  queue = main thread</text>
+  </g>
+
+  <g transform="translate(1058 220)">
+    <path d="M0 400 V112 Q0 0 112 0 H344 Q456 0 456 112 V400Z" fill="#0b1511" stroke="#8b7444" stroke-width="3"/>
+    <path d="M54 400 V143 Q54 68 129 68 H327 Q402 68 402 143 V400Z" fill="#19251b" stroke="#c99f50" stroke-opacity=".58"/>
+    <path d="M228 68 V400" stroke="#b99048" stroke-opacity=".55"/>
+    <circle cx="192" cy="268" r="8" fill="#f1c05c"/>
+    <circle cx="264" cy="268" r="8" fill="#f1c05c"/>
+    <path d="M93 524 L161 421 H295 L363 524Z" fill="#d2a958" opacity=".13"/>
+    <path d="M164 421 H292" stroke="#e3bb69" stroke-width="3"/>
+    <text x="228" y="564" text-anchor="middle" class="pill" fill="#c9b47b">当前仅支持标题页</text>
+  </g>
+
+  <g transform="translate(92 817)">
+    <rect width="690" height="72" rx="18" fill="#11271e" stroke="#345e4d"/>
+    <circle cx="38" cy="36" r="9" fill="#65d59d"/>
+    <text x="62" y="44" class="small" fill="#dbebdf">已测：标题页激活 · 新下载项刷新 · 返回标题后加载</text>
+  </g>
+  <g transform="translate(804 817)">
+    <rect width="685" height="72" rx="18" fill="#281a13" stroke="#73503b"/>
+    <circle cx="38" cy="36" r="9" fill="#f49b70"/>
+    <text x="62" y="44" class="small" fill="#f1d5c3">未承诺：热停用 · DLL 热更新 · 运行中存档内激活</text>
+  </g>
+</svg>

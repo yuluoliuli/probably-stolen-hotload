@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">HotLoad workflow</title>
+  <desc id="desc">Install once, retain native approval, activate at the title screen, and verify actual behavior in game.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f2e7"/>
+      <stop offset="1" stop-color="#edf5ef"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#9a7c3d"/>
+    </marker>
+    <style>
+      .num { font: 800 15px "Segoe UI", sans-serif; }
+      .head { font: 800 19px "Microsoft YaHei", "Segoe UI", sans-serif; }
+      .body { font: 14px "Microsoft YaHei", "Segoe UI", sans-serif; }
+      .small { font: 700 12px "Segoe UI", sans-serif; letter-spacing: .8px; }
+      .arrow { stroke: #b49a60; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1200" height="330" rx="26" fill="url(#bg)"/>
+  <path d="M0 288 C170 238 320 326 486 276 S800 227 1200 277 V330 H0Z" fill="#dceae0" opacity=".7"/>
+
+  <g transform="translate(35 49)" fill="#526056">
+    <rect width="244" height="188" rx="20" fill="#fffdf8" stroke="#d6cab0" stroke-width="2"/>
+    <circle cx="38" cy="38" r="21" fill="#e8efe8"/>
+    <text x="31" y="44" class="num" fill="#3f6552">01</text>
+    <text x="72" y="43" class="head" fill="#1f2923">安装一次</text>
+    <text x="23" y="82" class="small" fill="#8d713a">BOOTSTRAP</text>
+    <text x="23" y="108" class="body">Doorstop 注入引导层</text>
+    <text x="23" y="133" class="body">首次仍需正常重启</text>
+    <text x="23" y="158" class="body">不覆盖已有注入器</text>
+  </g>
+
+  <path class="arrow" d="M291 143 H350"/>
+
+  <g transform="translate(362 49)" fill="#526056">
+    <rect width="244" height="188" rx="20" fill="#fffdf8" stroke="#d6cab0" stroke-width="2"/>
+    <circle cx="38" cy="38" r="21" fill="#f5ead2"/>
+    <text x="31" y="44" class="num" fill="#876424">02</text>
+    <text x="72" y="43" class="head" fill="#1f2923">原生审核</text>
+    <text x="23" y="82" class="small" fill="#8d713a">TRUST</text>
+    <text x="23" y="108" class="body">游戏批准启用请求</text>
+    <text x="23" y="133" class="body">版本与信任评估照常</text>
+    <text x="23" y="158" class="body">不绕过扫描</text>
+  </g>
+
+  <path class="arrow" d="M618 143 H677"/>
+
+  <g transform="translate(689 49)" fill="#526056">
+    <rect width="244" height="188" rx="20" fill="#fffdf8" stroke="#caa655" stroke-width="3"/>
+    <circle cx="38" cy="38" r="21" fill="#fce8cf"/>
+    <text x="31" y="44" class="num" fill="#a0582f">03</text>
+    <text x="72" y="43" class="head" fill="#1f2923">标题页启用</text>
+    <text x="23" y="82" class="small" fill="#a0582f">HOTLOAD</text>
+    <text x="23" y="108" class="body">主线程排队加载</text>
+    <text x="23" y="133" class="body">刷新列表与资源</text>
+    <text x="23" y="158" class="body">白名单受控实验</text>
+    <rect x="23" y="169" width="116" height="4" rx="2" fill="#e0ad55"/>
+  </g>
+
+  <path class="arrow" d="M945 143 H1004"/>
+
+  <g transform="translate(1016 49)" fill="#c7dacf">
+    <rect width="151" height="188" rx="20" fill="#17342a" stroke="#17342a" stroke-width="2"/>
+    <circle cx="36" cy="38" r="21" fill="#345746"/>
+    <text x="30" y="44" class="num" fill="#9be0ba">04</text>
+    <text x="66" y="43" class="head" fill="#f6ebd4">验收</text>
+    <text x="22" y="82" class="small" fill="#74ba94">VERIFY</text>
+    <text x="22" y="108" class="body" fill="#c7dacf">看真实效果</text>
+    <text x="22" y="133" class="body" fill="#c7dacf">记录限制</text>
+    <text x="22" y="158" class="body" fill="#c7dacf">不靠日志</text>
+  </g>
+
+  <text x="575" y="286" text-anchor="middle" class="small" fill="#6c795f">一次引导安装 · 后续受控激活 · 不支持热停用与运行中存档内激活</text>
+</svg>
