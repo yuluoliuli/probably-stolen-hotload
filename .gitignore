@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+out/
+*.dll
+*.exe
+*.log
+*.zip
+*.es3
+.vs/
